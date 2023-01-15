@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="lib/js/jquery-3.3.1.slim.min.js" defer></script>
+    <script src="lib/js/popper.min.js" async></script>
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <script src="lib/js/bootstrap.min.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/title/title_icon.svg">
+    <title>Uber Eats</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="assets/header/logo.svg" alt="UberEats">
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="log-in.html"><button class="btn btn-outline-secondary" type="button" id="nav-btn">Войти</button></a>
+                <a href="index.html" class="nav-market">
+                    <img src="assets/header/basket.svg">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="search container">
+        <input type="search" id="search-input-main" class="search-input" placeholder="Поиск по ресторанам и кухням"/>
+    </div>
+    <h4 class="container">Рестораны в Москве</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/stores/mcdonalds.svg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Макдоналдс — Газетный</p>
+                            <p class="card-text"><small class="text-muted">₽₽ • Бургеры</small></p>
+                            <p class="card-text"><small class="text">25 - 35 мин</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/stores/dimsum.svg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">DimSum & Co — ЦДМ</p>
+                            <p class="card-text"><small class="text-muted">₽ • Японская • Китайская • Азиатская</small></p>
+                            <p class="card-text"><small class="text">40 - 50 мин</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/stores/dvijok.svg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">ДвижОК — Манежная</p>
+                            <p class="card-text"><small class="text-muted">₽ • Американская • Европейская</small></p>
+                            <p class="card-text"><small class="text">35 - 45 мин</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/stores/NHA.svg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">НЯ — NHA</p>
+                            <p class="card-text">₽₽ • Вьетнамская<small class="text-muted"></small></p>
+                            <p class="card-text"><small class="text">30 - 40 мин</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/stores/tochkatzi.svg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Точка Дзы — Цветной</p>
+                            <p class="card-text"><small class="text-muted">₽₽ • Вьетнамская</small></p>
+                            <p class="card-text"><small class="text">40 - 50 мин</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/stores/cinnabon.svg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Cinnabon</p>
+                            <p class="card-text"><small class="text-muted">₽ • Выпечка • Десерты • Капкейки</small></p>
+                            <p class="card-text"><small class="text">25 - 35 мин</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/stores/pizzelove.svg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">PIZZELOVE</p>
+                            <p class="card-text"><small class="text-muted">₽₽ • Пицца</small></p>
+                            <p class="card-text"><small class="text">15 - 25 мин</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/stores/zcafe.svg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Zю кафе — Тверская</p>
+                            <p class="card-text"><small class="text-muted">₽₽ • Японская</small></p>
+                            <p class="card-text"><small class="text">25 - 35 мин</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/stores/barbqcafe.svg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Bar BQ Cafe — Манежная</p>
+                            <p class="card-text"><small class="text-muted">₽₽₽ • Европейская</small></p>
+                            <p class="card-text"><small class="text">30 - 40 мин</small></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="assets/footer/white-logo.svg">
+            </div>
+            <hr>
+            <!-- <div class="lang-selector-container">
+                <img src="assets/footer/world.svg" alt="Language:">
+                <select class="form-select" aria-label="Default select example">
+                  <option value="ru" selected>Русский</option>
+                  <option value="en">English</option>
+                </select>
+            </div> -->
+        </div>
+    </footer>
+  </body>
+</html>
