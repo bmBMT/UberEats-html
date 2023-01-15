@@ -75,7 +75,7 @@ button { margin: auto 16px; }
     margin-bottom: 4px;
 }
 
-a {
+body a {
     text-decoration: none;
     color: black;
 }
