@@ -1,3 +1,9 @@
+@media screen and (max-width: 576px) {
+    .agreements-links {
+        flex-flow: column nowrap;
+    }
+}
+
 h4 { font-weight: 400; }
 
 .cointainer { margin: auto; }
@@ -5,7 +11,7 @@ h4 { font-weight: 400; }
 .navbar {
     position: sticky;
     height: 72px;
-    z-index: 100;
+    z-index: 1;
     top: 0px;
     background-color: white;
     box-shadow: 0 0 16px lightgray;
@@ -96,5 +102,76 @@ hr {
 }
 
 .footer-logo {
-    padding: 56px 0 40px 8px;
+    padding: 56px 0 40px 0;
+}
+
+.form-select {
+    background-image: url(assets/footer/world.svg);
+}
+
+.footer-links { padding: 32px 0; }
+
+.footer-links .row { margin-bottom: 0; }
+
+.lang-selector-container {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 24px;
+}
+
+.lang-selector-container > img {
+    position: relative;
+    left: 10px;
+    z-index: 1;
+}
+
+.lang-selector {
+    position: relative;
+    right: 20px;
+    border-radius: 4px;
+    border-color: #262626;
+    color: white;
+    font-size: 0.8rem;
+    padding: 10px 0px 10px 46px;
+    background: url(assets/footer/arrow-down.svg) 93% / 8% no-repeat #3B3B3B;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    width: 12rem;
+}
+
+.social { margin-bottom: 39px; }
+
+.hashtag { display: flex; margin-bottom: 16px; font-size: medium; }
+.hash { color: #49A144; }
+.tag { color: white; font-weight: 400; }
+
+footer a {
+    color: white;
+    font-size: 13px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #D8D8D8;
+}
+
+.dw-links {
+    display: flex;
+    padding: 32px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.agreements-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.agreements-links a {
+    font-size: 11px;
+    padding: 8px 0;
 }
