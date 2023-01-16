@@ -61,7 +61,7 @@ button { margin: auto 16px; }
 }
 
 
-.card {
+.row .card {
     margin-top: 16px;
     border: none;
     border-radius: 0;

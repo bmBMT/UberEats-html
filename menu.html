@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="lib/js/jquery-3.3.1.slim.min.js" defer></script>
+    <script src="lib/js/popper.min.js" async></script>
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <script src="lib/js/bootstrap.min.js" defer></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="menu-style.css">
+    <link rel="icon" href="assets/title/title_icon.svg">
+    <title>Uber Eats — Menu</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="assets/header/logo.svg" alt="UberEats">
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="log-in.html"><button class="btn btn-outline-secondary" type="button" id="nav-btn">Войти</button></a>
+                <a href="index.html" class="nav-market">
+                    <img src="assets/header/basket.svg">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="container">
+            <div class="hero-info">
+                <h1>Трактир «Пушкин»</h1>
+                <div class="hero-info-footer">
+                    <div class="text-muted">₽₽₽ • Европейская</div> 
+                    <div class="hero-info-footer-time">40 - 50 мин</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="assets/footer/white-logo.svg">
+            </div>
+            <hr>
+            <div class="footer-links">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="lang-selector-container">
+                                <img src="assets/footer/world.svg" alt="Language">
+                                <select name="country" id="lang-selector" class="lang-selector">
+                                  <option value="ru" selected>Русский</option>
+                                  <option value="en">English</option>
+                                </select>
+                            </div>
+                            <div class="social">
+                                <a href="#">
+                                    <div class="hashtag">
+                                        <div class="hash">#</div>
+                                        <div class="tag">UberEats</div>
+                                    </div>
+                                </a>
+                                <div class="socialnet">
+                                    <a href="#"><img src="assets/footer/facebook.svg"></a>
+                                    <a href="#"><img src="assets/footer/twitter.svg"></a>
+                                    <a href="#"><img src="assets/footer/instagram.svg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="text-links">
+                                <p><a href="#">Об UberEats</a></p>
+                                <p><a href="#">Станьте партнёром по доставке</a></p>
+                                <p><a href="#">Станьте партнёром-рестораном</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="text-links">
+                                <p><a href="#">Все города</a></p>
+                                <p><a href="#">Цены</a></p>
+                                <p><a href="#">Помощь</a></p>
+                                <p><a href="#">FAQs</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="dw-links">
+                <a href="#"><img src="assets/footer/download_on_the_app_store.svg"></a>
+                <a href="#"><img src="assets/footer/download_on_the_google_play.svg"></a>
+            </div>
+            <hr>
+            <div class="agreements-links">
+                <a href="#">© 2017 Uber Technologies Inc.</a>
+                <a href="#" class="privacy">Обработка персональных данных</a>
+                <a href="#" class="terms">Пользовательское соглашение</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
