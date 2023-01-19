@@ -14,6 +14,7 @@
         transform: translateY(100px);
     }
     .under-hero { transform: translateY(100px); }
+    .card { margin-bottom: 16px; }
     .card-title { font-size: 14px; }
     .card-right-img {
         width: 102px;
@@ -33,6 +34,7 @@
         width: 200px;
         height: 160px;
     }
+    .card { margin-bottom: 32px; }
 }
 
 @media screen and (min-width: 992px) {
@@ -44,6 +46,7 @@
         width: 170px;
         height: 160px;
     }
+    .card { margin-bottom: 49px; }
 }
 
 @media screen and (min-width: 576px) {
@@ -136,10 +139,7 @@ hr { border-color: #757575; }
 
 .nav-link:hover, .nav-link:active { color: black; }
 
-.card {
-    border-radius: 5px;
-    margin-bottom: 49px;
-}
+.card { border-radius: 5px; }
 .card-horizontal {
     display: flex;
     flex: 1 1 auto;
