@@ -6,8 +6,6 @@
 
 h4 { font-weight: 400; }
 
-.cointainer { margin: auto; }
-
 .navbar {
     position: sticky;
     height: 72px;
@@ -61,7 +59,7 @@ button { margin: auto 16px; }
 }
 
 
-.row .card {
+#noneborder-row .card {
     margin-top: 16px;
     border: none;
     border-radius: 0;

@@ -31,78 +31,777 @@
         </div>
     </nav>
     <div class="hero">
-        <div class="container">
+        <div class="container" id="contain">
             <div class="hero-info">
                 <h1>Трактир «Пушкин»</h1>
                 <div class="hero-info-footer">
-                    <div class="text-muted">₽₽₽ • Европейская</div> 
+                    <div class="text-muted gray-text">₽₽₽ • Европейская</div> 
                     <div class="hero-info-footer-time">40 - 50 мин</div>
                 </div>
             </div>
         </div>
     </div>
-
-    <footer>
+    <div class="under-hero">
         <div class="container">
-            <div class="footer-logo">
-                <img src="assets/footer/white-logo.svg">
-            </div>
-            <hr>
-            <div class="footer-links">
-                <div class="container">
+            <nav class="navbar-menu">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <button class="nav-link active" id="nav-snacks-tab" data-bs-toggle="tab" data-bs-target="#nav-snacks" type="button" role="tab" aria-controls="nav-snacks" aria-selected="true">Закуски</button>
+                      <button class="nav-link" id="nav-salads-tab" data-bs-toggle="tab" data-bs-target="#nav-salads" type="button" role="tab" aria-controls="nav-salads" aria-selected="false">Салаты</button>
+                      <button class="nav-link" id="nav-soups-tab" data-bs-toggle="tab" data-bs-target="#nav-soups" type="button" role="tab" aria-controls="nav-soups" aria-selected="false">Супы</button>
+                      <button class="nav-link" id="nav-hotDishes-tab" data-bs-toggle="tab" data-bs-target="#nav-hotDishes" type="button" role="tab" aria-controls="nav-hotDishes" aria-selected="false">Горячие блюда</button>
+                      <button class="nav-link" id="nav-sideDishes-tab" data-bs-toggle="tab" data-bs-target="#nav-sideDishes" type="button" role="tab" aria-controls="nav-sideDishes" aria-selected="false">Гарниры</button>
+                      <button class="nav-link" id="nav-desserts-tab" data-bs-toggle="tab" data-bs-target="#nav-desserts" type="button" role="tab" aria-controls="nav-desserts" aria-selected="false">Десерты</button>
+                    </div>
+                </nav>
+            </nav>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-snacks" role="tabpanel" aria-labelledby="nav-snacks-tab">
+                    <h2>Закуски</h2>
                     <div class="row">
-                        <div class="col-md-4 col-sm-12">
-                            <div class="lang-selector-container">
-                                <img src="assets/footer/world.svg" alt="Language">
-                                <select name="country" id="lang-selector" class="lang-selector">
-                                  <option value="ru" selected>Русский</option>
-                                  <option value="en">English</option>
-                                </select>
-                            </div>
-                            <div class="social">
-                                <a href="#">
-                                    <div class="hashtag">
-                                        <div class="hash">#</div>
-                                        <div class="tag">UberEats</div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Сельдь на бородинском хлебе</h4>
+                                                <p class="card-text">С яйцом и огурцом</p>
+                                            </div>
+                                            <b>240 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/1.svg" alt="Card image cap">
+                                        </div>
                                     </div>
-                                </a>
-                                <div class="socialnet">
-                                    <a href="#"><img src="assets/footer/facebook.svg"></a>
-                                    <a href="#"><img src="assets/footer/twitter.svg"></a>
-                                    <a href="#"><img src="assets/footer/instagram.svg"></a>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="col-md-4 col-sm-12">
-                            <div class="text-links">
-                                <p><a href="#">Об UberEats</a></p>
-                                <p><a href="#">Станьте партнёром по доставке</a></p>
-                                <p><a href="#">Станьте партнёром-рестораном</a></p>
-                            </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Соленья ассорти</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>320 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/2.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                        <div class="col-md-4 col-sm-12">
-                            <div class="text-links">
-                                <p><a href="#">Все города</a></p>
-                                <p><a href="#">Цены</a></p>
-                                <p><a href="#">Помощь</a></p>
-                                <p><a href="#">FAQs</a></p>
-                            </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Грибы маринованные</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>300 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/3.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Сало домашнее с горчицей</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>320 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/4.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div> 
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Малосольная семга</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>390 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/5.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Язык говяжий с хреном</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>350 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/6.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-salads" role="tabpanel" aria-labelledby="nav-salads-tab">
+                    <h2>Салаты</h2>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Сало домашнее с горчицей</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>320 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/4.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div> 
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Соленья ассорти</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>320 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/2.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Малосольная семга</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>390 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/5.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Язык говяжий с хреном</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>350 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/6.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Грибы маринованные</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>300 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/3.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Сельдь на бородинском хлебе</h4>
+                                                <p class="card-text">С яйцом и огурцом</p>
+                                            </div>
+                                            <b>240 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/1.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-soups" role="tabpanel" aria-labelledby="nav-soups-tab">
+                    <h2>Супы</h2>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Малосольная семга</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>390 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/5.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Сельдь на бородинском хлебе</h4>
+                                                <p class="card-text">С яйцом и огурцом</p>
+                                            </div>
+                                            <b>240 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/1.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Сало домашнее с горчицей</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>320 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/4.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div> 
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Соленья ассорти</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>320 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/2.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Язык говяжий с хреном</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>350 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/6.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Грибы маринованные</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>300 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/3.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-hotDishes" role="tabpanel" aria-labelledby="nav-hotDishes-tab">
+                    <h2>Горячие блюда</h2>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Язык говяжий с хреном</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>350 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/6.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Сало домашнее с горчицей</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>320 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/4.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div> 
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Грибы маринованные</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>300 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/3.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Сельдь на бородинском хлебе</h4>
+                                                <p class="card-text">С яйцом и огурцом</p>
+                                            </div>
+                                            <b>240 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/1.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Малосольная семга</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>390 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/5.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Соленья ассорти</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>320 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/2.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-sideDishes" role="tabpanel" aria-labelledby="nav-sideDishes-tab">
+                    <h2>Гарниры</h2>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Грибы маринованные</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>300 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/3.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Язык говяжий с хреном</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>350 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/6.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Сельдь на бородинском хлебе</h4>
+                                                <p class="card-text">С яйцом и огурцом</p>
+                                            </div>
+                                            <b>240 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/1.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Малосольная семга</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>390 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/5.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Сало домашнее с горчицей</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>320 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/4.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div> 
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Соленья ассорти</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>320 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/2.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-desserts" role="tabpanel" aria-labelledby="nav-desserts-tab">
+                    <h2>Десерты</h2>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Сельдь на бородинском хлебе</h4>
+                                                <p class="card-text">С яйцом и огурцом</p>
+                                            </div>
+                                            <b>240 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/1.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Грибы маринованные</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>300 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/3.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Соленья ассорти</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>320 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/2.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Язык говяжий с хреном</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>350 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/6.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Сало домашнее с горчицей</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>320 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/4.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <a href="#">
+                                <div class="card">
+                                    <div class="card-horizontal">
+                                        <div class="card-body">
+                                            <div class="head">
+                                                <h4 class="card-title">Малосольная семга</h4>
+                                                <p class="card-text"></p>
+                                            </div>
+                                            <b>390 ₽</b>
+                                        </div>
+                                        <div class="card-right-img">
+                                            <img class="" src="assets/menu/dishes/5.svg" alt="Card image cap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <hr>
-            <div class="dw-links">
-                <a href="#"><img src="assets/footer/download_on_the_app_store.svg"></a>
-                <a href="#"><img src="assets/footer/download_on_the_google_play.svg"></a>
-            </div>
-            <hr>
-            <div class="agreements-links">
-                <a href="#">© 2017 Uber Technologies Inc.</a>
-                <a href="#" class="privacy">Обработка персональных данных</a>
-                <a href="#" class="terms">Пользовательское соглашение</a>
-            </div>
         </div>
-    </footer>
+        <hr>
+        <footer>
+            <div class="container">
+                <div class="footer-logo">
+                    <img src="assets/footer/white-logo.svg">
+                </div>
+                <hr>
+                <div class="footer-links">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="lang-selector-container">
+                                    <img src="assets/footer/world.svg" alt="Language">
+                                    <select name="country" id="lang-selector" class="lang-selector">
+                                      <option value="ru" selected>Русский</option>
+                                      <option value="en">English</option>
+                                    </select>
+                                </div>
+                                <div class="social">
+                                    <a href="#">
+                                        <div class="hashtag">
+                                            <div class="hash">#</div>
+                                            <div class="tag">UberEats</div>
+                                        </div>
+                                    </a>
+                                    <div class="socialnet">
+                                        <a href="#"><img src="assets/footer/facebook.svg"></a>
+                                        <a href="#"><img src="assets/footer/twitter.svg"></a>
+                                        <a href="#"><img src="assets/footer/instagram.svg"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="text-links">
+                                    <p><a href="#">Об UberEats</a></p>
+                                    <p><a href="#">Станьте партнёром по доставке</a></p>
+                                    <p><a href="#">Станьте партнёром-рестораном</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="text-links">
+                                    <p><a href="#">Все города</a></p>
+                                    <p><a href="#">Цены</a></p>
+                                    <p><a href="#">Помощь</a></p>
+                                    <p><a href="#">FAQs</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="dw-links">
+                    <a href="#"><img src="assets/footer/download_on_the_app_store.svg"></a>
+                    <a href="#"><img src="assets/footer/download_on_the_google_play.svg"></a>
+                </div>
+                <hr>
+                <div class="agreements-links">
+                    <a href="#">© 2017 Uber Technologies Inc.</a>
+                    <a href="#" class="privacy">Обработка персональных данных</a>
+                    <a href="#" class="terms">Пользовательское соглашение</a>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
